@@ -1,6 +1,11 @@
+import { Hero } from "../components/fragments"
+import UserTemplate from "../components/templates/UserTempalate"
+
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <UserTemplate>
+      <Hero />
+    </UserTemplate>
   )
 }
 

@@ -1,8 +1,11 @@
-import Button from '@mui/material/Button';
+import {
+  RouterProvider,
+} from "react-router-dom";
+import { router } from "./route";
 
 function App() {
   return(
-    <Button variant="contained">Hello world</Button>
+    <RouterProvider router={router} />
   )
 }
 
